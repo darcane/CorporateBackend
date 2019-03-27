@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Core", "..\Corp.Core\Corp.Core.csproj", "{45CF9612-09C3-4822-A4AB-A7B541354979}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Core", "Corp.Core\Corp.Core.csproj", "{45CF9612-09C3-4822-A4AB-A7B541354979}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Northwind.Entities", "Corp.Northwind.Entities\Corp.Northwind.Entities.csproj", "{C4834A96-B352-41FA-9B20-8CD9D82F5A57}"
 EndProject
@@ -39,6 +39,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Corp.Northwind.WcfService",
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59555"
+		SlnRelativePath = "Corp.Northwind.WcfService\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
