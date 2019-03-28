@@ -4,10 +4,10 @@ namespace Corp.AdventureWorks.Entities.Concrete
 {
     public class Product : IEntity
     {
-        public int ProductId { get; set; }
-        public int ProductCategoryId { get; set; }
-        public string Name { get; set; }
-        public string ProductNumber { get; set; }
-        public decimal ListPrice { get; set; }
+        public virtual int ProductId { get; set; }
+        public virtual int ProductCategoryId { get; set; }
+        public virtual string Name { get; set; }
+        public virtual string ProductNumber { get; set; }
+        public virtual decimal ListPrice { get; set; }
     }
 }
