@@ -5,9 +5,9 @@ namespace Corp.AdventureWorks.Entities.Concrete
 {
     public class ProductCategory : IEntity
     {
-        public int ProductCategoryId { get; set; }
-        public int ParentProductCategoryId { get; set; }
-        public string Name { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public virtual int ProductCategoryId { get; set; }
+        public virtual int ParentProductCategoryId { get; set; }
+        public virtual string Name { get; set; }
+        public virtual DateTime ModifiedDate { get; set; }
     }
 }
