@@ -11,10 +11,12 @@ namespace Corp.AdventureWorks.DataAccess.Concrete.EntityFramework
             Database.SetInitializer<AdventureWorksContext>(null); // block code from generating tables on db
         }
         public DbSet<Product> Product { get; set; }
+        public DbSet<ProductCategory> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new ProductMap());
+            modelBuilder.Configurations.Add(new ProductCategoryMap());
         }
     }
 }
