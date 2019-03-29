@@ -41,7 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IProductService.cs" />
+    <Compile Include="Concrete\Managers\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Corp.AdventureWorks.DataAccess\Corp.AdventureWorks.DataAccess.csproj">
+      <Project>{496ED1EF-4AB3-427B-B3D6-95776C3EDC36}</Project>
+      <Name>Corp.AdventureWorks.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corp.AdventureWorks.Entities\Corp.AdventureWorks.Entities.csproj">
+      <Project>{C4834A96-B352-41FA-9B20-8CD9D82F5A57}</Project>
+      <Name>Corp.AdventureWorks.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corp.Core\Corp.Core.csproj">
+      <Project>{45cf9612-09c3-4822-a4ab-a7b541354979}</Project>
+      <Name>Corp.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
