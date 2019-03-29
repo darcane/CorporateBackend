@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Corp.Northwind.DataAccess.Tests")]
+[assembly: AssemblyTitle("Corp.AdventureWorks.DataAccess.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Corp.Northwind.DataAccess.Tests")]
+[assembly: AssemblyProduct("Corp.AdventureWorks.DataAccess.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

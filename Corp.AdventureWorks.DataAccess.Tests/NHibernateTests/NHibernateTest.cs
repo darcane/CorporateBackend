@@ -3,7 +3,7 @@ using Corp.AdventureWorks.DataAccess.Concrete.NHibernate;
 using Corp.AdventureWorks.DataAccess.Concrete.NHibernate.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Corp.Northwind.DataAccess.Tests.NHibernateTests
+namespace Corp.AdventureWorks.DataAccess.Tests.NHibernateTests
 {
     [TestClass]
     public class NHibernateTest

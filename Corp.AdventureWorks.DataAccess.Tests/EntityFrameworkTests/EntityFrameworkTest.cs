@@ -2,7 +2,7 @@
 using Corp.AdventureWorks.DataAccess.Concrete.EntityFramework;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Corp.Northwind.DataAccess.Tests.EntityFrameworkTests
+namespace Corp.AdventureWorks.DataAccess.Tests.EntityFrameworkTests
 {
     [TestClass]
     public class EntityFrameworkTest

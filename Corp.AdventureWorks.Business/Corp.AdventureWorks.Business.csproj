@@ -7,8 +7,8 @@
     <ProjectGuid>{DC90C4E2-170B-4F53-A233-8E0960B3CA59}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Corp.Northwind.Business</RootNamespace>
-    <AssemblyName>Corp.Northwind.Business</AssemblyName>
+    <RootNamespace>Corp.AdventureWorks.Business</RootNamespace>
+    <AssemblyName>Corp.AdventureWorks.Business</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
