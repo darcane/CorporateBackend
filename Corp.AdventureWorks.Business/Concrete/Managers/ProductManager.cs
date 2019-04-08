@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Transactions;
 using Corp.AdventureWorks.Business.Abstract;
 using Corp.AdventureWorks.Business.ValidationRules.FluentValidation;
 using Corp.AdventureWorks.DataAccess.Abstract;
@@ -35,6 +37,26 @@ namespace Corp.AdventureWorks.Business.Concrete.Managers
         public Product Update(Product product)
         {
             return _productDal.Update(product);
+        }
+
+        public void TransactionalOperation(Product product1, Product product2)
+        {
+            // BAD PRACTICE
+            using (var scope = new TransactionScope())
+            {
+                try
+                {
+                    _productDal.Add(product1);
+                    // Business logic here
+                    _productDal.Update(product2);
+                    scope.Complete();
+                }
+                catch
+                {
+                    scope.Dispose();
+                }
+            }
+            // BAD PRACTICE
         }
     }
 }
