@@ -4,7 +4,7 @@ using Corp.Core.CrossCuttingConcerns.Validation.FluentValidation;
 using FluentValidation;
 using PostSharp.Aspects;
 
-namespace Corp.Core.Aspects.PostSharp
+namespace Corp.Core.Aspects.PostSharp.ValidationAspects
 {
     [Serializable]
     public class FluentValidationAspect : OnMethodBoundaryAspect

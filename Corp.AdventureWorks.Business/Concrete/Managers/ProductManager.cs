@@ -6,6 +6,8 @@ using Corp.AdventureWorks.Business.ValidationRules.FluentValidation;
 using Corp.AdventureWorks.DataAccess.Abstract;
 using Corp.AdventureWorks.Entities.Concrete;
 using Corp.Core.Aspects.PostSharp;
+using Corp.Core.Aspects.PostSharp.TransactionAspects;
+using Corp.Core.Aspects.PostSharp.ValidationAspects;
 
 namespace Corp.AdventureWorks.Business.Concrete.Managers
 {
@@ -39,24 +41,12 @@ namespace Corp.AdventureWorks.Business.Concrete.Managers
             return _productDal.Update(product);
         }
 
+        [TransactionScopeAspect]
         public void TransactionalOperation(Product product1, Product product2)
         {
-            // BAD PRACTICE
-            using (var scope = new TransactionScope())
-            {
-                try
-                {
-                    _productDal.Add(product1);
-                    // Business logic here
-                    _productDal.Update(product2);
-                    scope.Complete();
-                }
-                catch
-                {
-                    scope.Dispose();
-                }
-            }
-            // BAD PRACTICE
+            _productDal.Add(product1);
+            // Business logic here
+            _productDal.Update(product2);
         }
     }
 }
