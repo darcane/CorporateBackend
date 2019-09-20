@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.AdventureWorks.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.AdventureWorks.Business.Tests", "Corp.AdventureWorks.Business.Tests\Corp.AdventureWorks.Business.Tests.csproj", "{9790C90B-7B1A-438B-AC67-8B4F65DD6BB9}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Corp.Northwind.WcfService", "Corp.AdventureWorks.WcfService\", "{CE7C0F74-50CD-453B-82E1-4A66B63A3747}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Corp.AdventureWorks.WcfService", "Corp.AdventureWorks.WcfService\", "{CE7C0F74-50CD-453B-82E1-4A66B63A3747}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_59555"
@@ -86,9 +86,7 @@ Global
 		{9790C90B-7B1A-438B-AC67-8B4F65DD6BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9790C90B-7B1A-438B-AC67-8B4F65DD6BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE7C0F74-50CD-453B-82E1-4A66B63A3747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE7C0F74-50CD-453B-82E1-4A66B63A3747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE7C0F74-50CD-453B-82E1-4A66B63A3747}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE7C0F74-50CD-453B-82E1-4A66B63A3747}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
