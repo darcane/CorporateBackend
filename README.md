@@ -2,6 +2,8 @@
 
 ## Summary
 
+[![Build Status](https://travis-ci.com/darcane/CorporateBackend.svg?branch=master)](https://travis-ci.com/darcane/CorporateBackend)
+
 * In this project i will build a framework for a corporate company.
 * Whole project is developing with SOLID principles in mind. For more information check the [wikipage](https://en.wikipedia.org/wiki/SOLID).
   * Single responsibility
