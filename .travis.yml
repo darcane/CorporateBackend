@@ -1,3 +1,4 @@
 language: csharp
 solution: Corp.sln
-mono: none
+mono: 
+  - latest
