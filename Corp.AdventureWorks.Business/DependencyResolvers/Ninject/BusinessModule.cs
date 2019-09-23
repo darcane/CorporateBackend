@@ -3,11 +3,8 @@ using Corp.AdventureWorks.Business.Abstract;
 using Corp.AdventureWorks.Business.Concrete.Managers;
 using Corp.AdventureWorks.DataAccess.Abstract;
 using Corp.AdventureWorks.DataAccess.Concrete.EntityFramework;
-using Corp.AdventureWorks.DataAccess.Concrete.NHibernate;
-using Corp.AdventureWorks.DataAccess.Concrete.NHibernate.Helpers;
 using Corp.Core.DataAccess;
 using Corp.Core.DataAccess.EntityFramework;
-using Corp.Core.DataAccess.NHibernate;
 using Ninject.Modules;
 
 namespace Corp.AdventureWorks.Business.DependencyResolvers.Ninject

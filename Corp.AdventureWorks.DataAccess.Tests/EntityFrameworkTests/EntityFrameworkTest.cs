@@ -1,5 +1,4 @@
-﻿using System;
-using Corp.AdventureWorks.DataAccess.Concrete.EntityFramework;
+﻿using Corp.AdventureWorks.DataAccess.Concrete.EntityFramework;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Corp.AdventureWorks.DataAccess.Tests.EntityFrameworkTests

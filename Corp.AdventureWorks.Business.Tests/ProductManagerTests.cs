@@ -1,5 +1,4 @@
-﻿using System;
-using Corp.AdventureWorks.Business.Concrete.Managers;
+﻿using Corp.AdventureWorks.Business.Concrete.Managers;
 using Corp.AdventureWorks.DataAccess.Abstract;
 using Corp.AdventureWorks.Entities.Concrete;
 using FluentValidation;
