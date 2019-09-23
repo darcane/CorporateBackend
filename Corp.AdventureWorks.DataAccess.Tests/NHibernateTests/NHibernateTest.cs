@@ -1,5 +1,4 @@
-﻿using System;
-using Corp.AdventureWorks.DataAccess.Concrete.NHibernate;
+﻿using Corp.AdventureWorks.DataAccess.Concrete.NHibernate;
 using Corp.AdventureWorks.DataAccess.Concrete.NHibernate.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

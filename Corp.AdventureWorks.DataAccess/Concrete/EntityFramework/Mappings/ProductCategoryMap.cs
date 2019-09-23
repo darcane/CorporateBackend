@@ -1,5 +1,4 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using System.Data.Entity.ModelConfiguration.Configuration;
 using Corp.AdventureWorks.Entities.Concrete;
 
 namespace Corp.AdventureWorks.DataAccess.Concrete.EntityFramework.Mappings

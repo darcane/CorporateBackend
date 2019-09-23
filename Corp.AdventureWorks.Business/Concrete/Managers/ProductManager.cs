@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Transactions;
+﻿using System.Collections.Generic;
 using Corp.AdventureWorks.Business.Abstract;
-using Corp.AdventureWorks.Business.ValidationRules.FluentValidation;
 using Corp.AdventureWorks.DataAccess.Abstract;
 using Corp.AdventureWorks.Entities.Concrete;
 
